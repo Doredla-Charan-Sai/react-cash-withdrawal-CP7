@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.bg-cont {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 40px;
+  width: 500px;
+}
+.profile-name-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+.profile-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 80px;
+  background-color: #c7d2fe;
+  background-size: cover;
+  margin-right: 20px;
+}
+.profile-head {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #7c3aed;
+  font-weight: bold;
+  text-align: center;
+}
+.user-name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #d4d2db;
+  font-weight: bold;
+  text-align: center;
+}
+.balance-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #382f5a;
+  font-weight: bold;
+}
+.amount {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #d4d2db;
+  font-weight: bold;
+}
+.in-rps-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.in-rps {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #382f5a;
+  font-weight: bold;
+}
+.withdraw {
+  color: white;
+}
+.denom-list {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
